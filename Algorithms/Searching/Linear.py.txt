@@ -4,7 +4,9 @@ def search(arr, n, x):
         if (arr[i] == x):
             return i
     return -1
- 
+  print("Element is not present in array")
+else:
+    print("Element is present at index", result)
  
 # Driver Code
 arr = [2, 3, 4, 10, 40]
